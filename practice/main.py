@@ -18,3 +18,7 @@ def user():
 @app.get("/item/")
 def item():
     return {'message':"item"}
+
+@app.get("/new_item/")
+def item_apple():
+    return {'Item':"New items"}
