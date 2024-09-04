@@ -13,3 +13,7 @@ def get_root():
 @app.get("/user/")
 def user():
     return {'message':"new user"}
+
+@app.get("/item/")
+def user():
+    return {"message": "add new items"}
