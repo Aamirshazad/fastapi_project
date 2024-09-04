@@ -14,6 +14,3 @@ def get_root():
 def user():
     return {'message':"new user"}
 
-@app.get("/item/")
-def user():
-    return {"message": "add new items"}
